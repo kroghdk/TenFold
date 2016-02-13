@@ -18,7 +18,7 @@ class UMaterialInstanceDynamic;
 #endif
 #define BLU_BluEye_generated_h
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_7_DELEGATE \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_7_DELEGATE \
 struct _Script_Blu_eventScriptEvent_Parms \
 { \
 	FString EventName; \
@@ -35,7 +35,7 @@ static inline void FScriptEvent_DelegateWrapper(const FMulticastScriptDelegate& 
 
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execResizeBrowser) \
 	{ \
@@ -243,7 +243,7 @@ static inline void FScriptEvent_DelegateWrapper(const FMulticastScriptDelegate& 
 	}
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execResizeBrowser) \
 	{ \
@@ -451,7 +451,7 @@ static inline void FScriptEvent_DelegateWrapper(const FMulticastScriptDelegate& 
 	}
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS_NO_PURE_DECLS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesUBluEye(); \
 	friend BLU_API class UClass* Z_Construct_UClass_UBluEye(); \
@@ -462,7 +462,7 @@ static inline void FScriptEvent_DelegateWrapper(const FMulticastScriptDelegate& 
 	virtual UObject* _getUObject() const { return const_cast<UBluEye*>(this); }
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS \
 	private: \
 	static void StaticRegisterNativesUBluEye(); \
 	friend BLU_API class UClass* Z_Construct_UClass_UBluEye(); \
@@ -473,7 +473,7 @@ static inline void FScriptEvent_DelegateWrapper(const FMulticastScriptDelegate& 
 	virtual UObject* _getUObject() const { return const_cast<UBluEye*>(this); }
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_STANDARD_CONSTRUCTORS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UBluEye(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBluEye) \
@@ -485,7 +485,7 @@ private: \
 public:
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_ENHANCED_CONSTRUCTORS \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private copy-constructor, should never be used */ \
 	NO_API UBluEye(const UBluEye& InCopy); \
@@ -495,29 +495,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UBluEye); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UBluEye)
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_50_PROLOG
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_GENERATED_BODY_LEGACY \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_50_PROLOG
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_STANDARD_CONSTRUCTORS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_GENERATED_BODY \
+#define TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS_NO_PURE_DECLS \
-	Web_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_ENHANCED_CONSTRUCTORS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_INCLASS_NO_PURE_DECLS \
+	TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Web_Plugins_BLUI_Source_Blu_Public_BluEye_h
+#define CURRENT_FILE_ID TenFold_Plugins_BLUI_Source_Blu_Public_BluEye_h
 
 
 #define FOREACH_ENUM_EBLUSPECIALKEYS(op) \

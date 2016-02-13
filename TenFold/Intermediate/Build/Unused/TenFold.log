@@ -1,0 +1,33 @@
+﻿  Performing full C++ include scan (building a new target)
+  Creating makefile for TenFoldEditor (no existing makefile)
+  Parsing headers for TenFoldEditor
+    Running UnrealHeaderTool "C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\TenFold.uproject" "C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Intermediate\Build\Win64\TenFoldEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+  Reflection code generated for TenFoldEditor in 17.9362228 seconds
+  Performing 22 actions (3 in parallel)
+  [3/22] Resource ModuleVersionResource.rc.inl
+  PCH.BluPrivatePCH.h.cpp
+  PCH.TenFold.h.cpp
+  [4/22] Resource PCLaunch.rc
+  PCH.BluLoaderPrivatePCH.h.cpp
+  BluLoader.cpp
+  Helper.cpp
+  BluManager.cpp
+  Blu.generated.cpp
+  Blu.cpp
+  BluBluprintFunctionLibrary.cpp
+  BluEye.cpp
+  BluJsonObj.cpp
+  RenderHandler.cpp
+  [15/22] Link UE4Editor-Blu.dll
+     Creating library C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Blu.lib and object C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-Blu.exp
+  TenFold.cpp
+  [17/22] Resource ModuleVersionResource.rc.inl
+  [18/22] Resource PCLaunch.rc
+  [19/22] Resource PCLaunch.rc
+  [20/22] Resource ModuleVersionResource.rc.inl
+  [21/22] Link UE4Editor-TenFold.dll
+     Creating library C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TenFold.lib and object C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TenFold.exp
+  [22/22] Link UE4Editor-BluLoader.dll
+     Creating library C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.lib and object C:\Users\Wade Penistone\Documents\Unreal Projects\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.exp
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 602.01 seconds

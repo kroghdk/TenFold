@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildReceipt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Properties>
+    <Property Name="TargetName" Value="TenFoldEditor" />
+    <Property Name="Platform" Value="Win64" />
+    <Property Name="Configuration" Value="Development" />
+    <Property Name="Precompile" Value="False" />
+  </Properties>
+  <BuildProducts>
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Binaries\Win64\UE4Editor-BluLoader.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Binaries\Win64\UE4Editor-BluLoader.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BluLoader.lib" Type="ImportLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Binaries\Win64\UE4Editor-Blu.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Binaries\Win64\UE4Editor-Blu.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\BLUI\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Blu.lib" Type="ImportLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TenFold.dll" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Binaries\Win64\UE4Editor-TenFold.pdb" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TenFold.lib" Type="ImportLibrary" />
+  </BuildProducts>
+  <RuntimeDependencies>
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\blu_ue4_process.exe" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef_100_percent.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef_200_percent.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\d3dcompiler_43.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\d3dcompiler_47.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\devtools_resources.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\ffmpegsumo.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\icudtl.dat" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libcef.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libEGL.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libGLESv2.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\natives_blob.bin" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\snapshot_blob.bin" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\am.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ar.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\bg.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\bn.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ca.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\cs.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\da.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\de.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\el.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\en-GB.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\en-US.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\es-419.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\es.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\et.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\fa.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\fi.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\fil.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\fr.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\gu.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\he.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\hi.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\hr.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\hu.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\id.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\it.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ja.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\kn.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ko.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\lt.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\lv.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ml.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\mr.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ms.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\nb.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\nl.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\pl.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\pt-BR.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\pt-PT.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ro.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ru.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\sk.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\sl.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\sr.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\sv.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\sw.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\ta.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\te.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\th.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\tr.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\uk.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\vi.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\zh-CN.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\zh-TW.pak" />
+  </RuntimeDependencies>
+  <AdditionalProperties />
+  <bRequireDependenciesToExist>true</bRequireDependenciesToExist>
+</BuildReceipt>
