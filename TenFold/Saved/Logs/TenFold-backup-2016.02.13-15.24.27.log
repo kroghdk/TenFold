@@ -1,0 +1,62 @@
+﻿[2016.02.13-15.12.56:223][  0]Log file open, 02/13/16 15:12:56
+[2016.02.13-15.12.56:223][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-15.12.56:223][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-15.12.56:223][  0]LogInit:Display: RandInit(-1486867540) SRandInit(-1486867512).
+[2016.02.13-15.12.56:223][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.02.13-15.12.56:223][  0]LogStats: Stats thread started at 0.082476
+[2016.02.13-15.12.56:223][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-15.12.56:223][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-BluLoader.dll
+[2016.02.13-15.12.56:223][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-15.13.01:076][  0]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TenFold Development Win64 -project="C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/TenFold.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.02.13-15.13.55:759][  0]@progress push 5%
+[2016.02.13-15.13.57:568][  0]Parsing headers for TenFoldEditor
+[2016.02.13-15.13.57:668][  0]  Running UnrealHeaderTool "C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/TenFold.uproject" "C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Intermediate\Build\Win64\TenFoldEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.13-15.14.12:042][  0]Reflection code generated for TenFoldEditor in 14.3883098 seconds
+[2016.02.13-15.14.12:544][  0]@progress pop
+[2016.02.13-15.14.18:073][  0]Performing 22 actions (3 in parallel)
+[2016.02.13-15.14.18:475][  0]PCH.BluLoaderPrivatePCH.h.cpp
+[2016.02.13-15.14.18:576][  0]PCH.BluPrivatePCH.h.cpp
+[2016.02.13-15.14.18:576][  0]PCH.TenFold.h.cpp
+[2016.02.13-15.17.18:924][  0][4/22] Resource PCLaunch.rc
+[2016.02.13-15.17.23:348][  0][5/22] Resource ModuleVersionResource.rc.inl
+[2016.02.13-15.17.29:888][  0]Helper.cpp
+[2016.02.13-15.17.35:625][  0]BluLoader.cpp
+[2016.02.13-15.18.42:090][  0]Blu.generated.cpp
+[2016.02.13-15.19.54:194][  0]BluManager.cpp
+[2016.02.13-15.19.56:005][  0]RenderHandler.cpp
+[2016.02.13-15.20.00:631][  0]BluJsonObj.cpp
+[2016.02.13-15.20.06:463][  0]Blu.cpp
+[2016.02.13-15.20.09:178][  0]BluBluprintFunctionLibrary.cpp
+[2016.02.13-15.20.11:188][  0]BluEye.cpp
+[2016.02.13-15.20.13:305][  0]TenFold.cpp
+[2016.02.13-15.22.49:486][  0][16/22] Link UE4Editor-Blu.dll
+[2016.02.13-15.22.49:888][  0][17/22] Resource ModuleVersionResource.rc.inl
+[2016.02.13-15.22.50:190][  0][18/22] Resource ModuleVersionResource.rc.inl
+[2016.02.13-15.22.50:391][  0][19/22] Resource PCLaunch.rc
+[2016.02.13-15.22.50:592][  0][20/22] Resource PCLaunch.rc
+[2016.02.13-15.22.56:725][  0]LINK : fatal error LNK1181: cannot open input file 'C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\ThirdParty\cef/Win/lib\libcef.lib'
+[2016.02.13-15.23.44:696][  0][21/22] Link UE4Editor-BluLoader.dll
+[2016.02.13-15.23.44:897][  0]   Creating library C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.lib and object C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.exp
+[2016.02.13-15.23.45:600][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.13-15.23.45:600][  0]ERROR: UBT ERROR: Failed to produce item: C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Binaries\Win64\UE4Editor-Blu.dll
+[2016.02.13-15.23.45:902][  0]Total build time: 644.62 seconds
+[2016.02.13-15.23.49:604][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-15.23.49:604][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-15.24.07:282][  0]LogExit: Preparing to exit.
+[2016.02.13-15.24.07:629][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.02.13-15.24.07:653][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-15.24.07:685][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-15.24.07:700][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-15.24.07:707][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-15.24.07:711][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-15.24.07:717][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-15.24.07:744][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-15.24.07:755][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-15.24.07:770][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-15.24.07:780][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-15.24.07:804][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-15.24.07:811][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-15.24.07:817][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-15.24.07:830][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-15.24.07:880][  0]LogExit: Exiting.
+[2016.02.13-15.24.07:902][  0]Log file closed, 02/13/16 15:24:07

@@ -1,0 +1,25 @@
+﻿[2016.02.13-15.32.17:953][  0]Log file open, 02/13/16 15:32:17
+[2016.02.13-15.32.17:953][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-15.32.17:953][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-15.32.17:953][  0]LogInit:Display: RandInit(-2032094140) SRandInit(-2032094091).
+[2016.02.13-15.32.17:953][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.02.13-15.32.17:953][  0]LogStats: Stats thread started at 0.081888
+[2016.02.13-15.32.17:953][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-15.32.17:953][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-15.32.21:554][  0]LogExit: Preparing to exit.
+[2016.02.13-15.32.21:555][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-15.32.21:556][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-15.32.21:558][  0]LogExit: Exiting.
+[2016.02.13-15.32.21:561][  0]Log file closed, 02/13/16 15:32:21

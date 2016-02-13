@@ -1,0 +1,37 @@
+﻿[2016.02.13-16.00.39:296][  0]Log file open, 02/13/16 16:00:39
+[2016.02.13-16.00.39:296][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-16.00.39:296][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-16.00.39:296][  0]LogInit:Display: RandInit(852575229) SRandInit(852575264).
+[2016.02.13-16.00.39:296][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.02.13-16.00.39:296][  0]LogStats: Stats thread started at 0.083412
+[2016.02.13-16.00.39:296][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-16.00.39:296][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-16.00.42:401][  0]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TenFold Development Win64 -project="C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/TenFold.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.02.13-16.01.48:625][  0]@progress push 5%
+[2016.02.13-16.01.50:245][  0]@progress pop
+[2016.02.13-16.01.55:673][  0]Performing 2 actions (3 in parallel)
+[2016.02.13-16.01.55:674][  0][1/2] Link UE4Editor-Blu.dll
+[2016.02.13-16.01.56:679][  0]LINK : fatal error LNK1181: cannot open input file 'C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\ThirdParty\cef/Win/lib\libcef.lib'
+[2016.02.13-16.01.56:981][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.13-16.01.56:981][  0]ERROR: UBT ERROR: Failed to produce item: C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Binaries\Win64\UE4Editor-Blu.dll
+[2016.02.13-16.01.57:081][  0]Total build time: 73.09 seconds
+[2016.02.13-16.01.57:806][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-16.01.57:806][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-16.03.11:830][  0]LogExit: Preparing to exit.
+[2016.02.13-16.03.11:833][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-16.03.11:862][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-16.03.11:864][  0]LogExit: Exiting.
+[2016.02.13-16.03.11:866][  0]Log file closed, 02/13/16 16:03:11

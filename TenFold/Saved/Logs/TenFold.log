@@ -1,752 +1,153 @@
-﻿[2016.02.12-17.54.32:037][  0]Log file open, 02/12/16 18:54:32
-[2016.02.12-17.54.32:037][  0]LogInit:Display: Running engine for game: TenFold
-[2016.02.12-17.54.32:037][  0]LogPlatformFile: Not using cached read wrapper
-[2016.02.12-17.54.32:037][  0]LogInit:Display: RandInit(-771071694) SRandInit(-771071693).
-[2016.02.12-17.54.32:037][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.02.12-17.54.32:037][  0]LogStats: Stats thread started at 0.076261
-[2016.02.12-17.54.32:037][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
-[2016.02.12-17.54.32:037][  0]LogInit: API Version: 2758231
-[2016.02.12-17.54.32:037][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
-[2016.02.12-17.54.32:037][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.02.12-17.54.32:037][  0]LogInit: Build Configuration: Development
-[2016.02.12-17.54.32:037][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.02.12-17.54.32:037][  0]LogInit: Command line: 
-[2016.02.12-17.54.32:037][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.02.12-17.54.32:037][  0]LogInit: Rocket: 1
-[2016.02.12-17.54.32:045][  0]LogInit: Using libcurl 7.41.0
-[2016.02.12-17.54.32:045][  0]LogInit:  - built for x86_64-pc-win32
-[2016.02.12-17.54.32:045][  0]LogInit:  - supports SSL with WinSSL
-[2016.02.12-17.54.32:045][  0]LogInit:  - other features:
-[2016.02.12-17.54.32:045][  0]LogInit:      CURL_VERSION_SSL
-[2016.02.12-17.54.32:045][  0]LogInit:      CURL_VERSION_IPV6
-[2016.02.12-17.54.32:045][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.02.12-17.54.32:045][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.02.12-17.54.32:045][  0]LogInit:      CURL_VERSION_IDN
-[2016.02.12-17.54.32:045][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.02.12-17.54.32:045][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.02.12-17.54.32:045][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.02.12-17.54.32:045][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.02.12-17.54.32:045][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.02.12-17.54.32:052][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.02.12-17.54.32:058][  0]LogInit: Object subsystem initialized
-[2016.02.12-17.54.32:059][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.12-17.54.32:059][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.02.12-17.54.32:067][  0]LogInit: Computer: ROBINBÆRBAR
-[2016.02.12-17.54.32:067][  0]LogInit: User: Robin
-[2016.02.12-17.54.32:067][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.02.12-17.54.32:067][  0]LogInit: High frequency timer resolution =2.435772 MHz
-[2016.02.12-17.54.32:067][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.02.12-17.54.32:067][  0]LogMemory: Platform Memory Stats for Windows
-[2016.02.12-17.54.32:067][  0]LogMemory: Process Physical Memory: 56.16 MB used, 56.16 MB peak
-[2016.02.12-17.54.32:067][  0]LogMemory: Process Virtual Memory: 58.78 MB used, 58.78 MB peak
-[2016.02.12-17.54.32:067][  0]LogMemory: Physical Memory: 4724.19 MB used, 8074.92 MB total
-[2016.02.12-17.54.32:067][  0]LogMemory: Virtual Memory: 385.81 MB used, 134217728.00 MB total
-[2016.02.12-17.54.32:103][  0]LogTextLocalizationManager: No translations for ('da-DK') exist, falling back to 'en' for localization and internationalization data.
-[2016.02.12-17.54.32:562][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M      (Feature Level 11_0)
-[2016.02.12-17.54.32:562][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 2 output[s]
-[2016.02.12-17.54.32:568][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2016.02.12-17.54.32:568][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
-[2016.02.12-17.54.32:569][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.02.12-17.54.32:569][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
-[2016.02.12-17.54.32:569][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.02.12-17.54.32:574][  0]LogD3D11RHI: !Direct3DDevice
-[2016.02.12-17.54.32:574][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.02.12-17.54.32:591][  0]LogD3D11RHI: Async texture creation enabled
-[2016.02.12-17.54.32:601][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/Github/TenFold/TenFold/Intermediate/Shaders/WorkingDirectory/2660/).
-[2016.02.12-17.54.32:601][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robin/AppData/Local/Temp/UnrealShaderWorkingDir/32F27FB44EF63FBDE23B9391D8108E61/'.
-[2016.02.12-17.54.32:601][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.02.12-17.54.33:326][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.02.12-17.54.33:330][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.02.12-17.54.33:336][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.02.12-17.54.33:340][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.02.12-17.54.33:345][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.02.12-17.54.33:347][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.02.12-17.54.33:350][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.02.12-17.54.33:353][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.02.12-17.54.33:355][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.02.12-17.54.33:358][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.02.12-17.54.33:361][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.02.12-17.54.33:366][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.02.12-17.54.33:366][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.02.12-17.54.33:367][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.02.12-17.54.33:383][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.02.12-17.54.33:386][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.02.12-17.54.33:389][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.02.12-17.54.33:392][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.02.12-17.54.33:392][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.02.12-17.54.33:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Robin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Robin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/TenFold/TenFold/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Github/TenFold/TenFold/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.02.12-17.54.33:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.02.12-17.54.33:582][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.02.12-17.54.33:594][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.02.12-17.54.33:766][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.12-17.54.33:768][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.02.12-17.54.33:869][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.02.12-17.54.33:869][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.02.12-17.54.34:078][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.02.12-17.54.34:789][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.02.12-17.54.34:885][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2016.02.12-17.54.35:039][  0]SourceControl: Info Source control is disabled
-[2016.02.12-17.54.35:039][  0]SourceControl: Info Source control is disabled
-[2016.02.12-17.54.35:052][  0]SourceControl: Info Source control is disabled
-[2016.02.12-17.54.35:065][  0]SourceControl: Info Source control is disabled
-[2016.02.12-17.54.35:326][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2016.02.12-17.54.35:326][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
-[2016.02.12-17.54.35:386][  0]LogEngine: Initializing Engine...
-[2016.02.12-17.54.35:388][  0]OCULUS: Info: 02/12/16 17:54:35: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
-
-[2016.02.12-17.54.35:388][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.02.12-17.54.35:506][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.02.12-17.54.35:511][  0]LogInit: XAudio2 using 'Højttalere (Sound Blaster R3/A6U)' : 2 channels at 48 kHz using 24 bits per sample (channel mask 0x3)
-[2016.02.12-17.54.35:519][  0]LogInit: FAudioDevice initialized.
-[2016.02.12-17.54.35:552][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Robin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.12-17.54.35:559][  0]LogInit: Texture streaming: Enabled
-[2016.02.12-17.54.35:566][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.02.12-17.54.35:566][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
-[2016.02.12-17.54.35:566][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2b19be7941c1812a7bf809ae893477e7|1d7ef041aac047b88db563ecd4788890|aa42e4c9-18e0-4455-9188-b13d72f1cd87
-[2016.02.12-17.54.35:566][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.02.12-17.54.35:575][  0]LogInit: Transaction tracking system initialized
-[2016.02.12-17.54.35:604][  0]BlueprintLog: New page: Editor Load
-[2016.02.12-17.54.35:683][  0]LocalizationService: Info Localization service is disabled
-[2016.02.12-17.54.35:753][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2016.02.12-17.54.35:753][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2016.02.12-17.54.35:753][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2016.02.12-17.54.35:764][  0]LogConsoleResponse:Display: 
-[2016.02.12-17.54.35:867][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.02.12-17.54.35:930][  0]LogFileCache: Scanning file cache for directory 'D:/Github/TenFold/TenFold/Content/' took 0.01s
-[2016.02.12-17.54.35:930][  0]SourceControl: Info Source control is disabled
-[2016.02.12-17.54.35:930][  0]Cmd: MAP LOAD FILE="D:/Github/TenFold/TenFold/Content/Levels/Launcher.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.02.12-17.54.35:931][  0]LightingResults: New page: Lighting Build
-[2016.02.12-17.54.35:934][  0]MapCheck: New page: Map Check
-[2016.02.12-17.54.35:934][  0]LightingResults: New page: Lighting Build
-[2016.02.12-17.54.35:944][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4D0F8E480
-[2016.02.12-17.54.36:275][  0]LogAIModule: Creating AISystem for world Launcher
-[2016.02.12-17.54.36:279][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.02.12-17.54.36:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.02.12-17.54.36:325][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.494ms to complete.
-[2016.02.12-17.54.36:325][  0]LogFileHelpers: Loading map 'Launcher' took 0.395
-[2016.02.12-17.54.36:432][  0]LogCollectionManager: Loaded 0 collections in 0.002189 seconds
-[2016.02.12-17.54.36:482][  0]LogFileCache: Scanning file cache for directory 'D:/Github/TenFold/TenFold/Saved/Collections/' took 0.01s
-[2016.02.12-17.54.36:482][  0]LogFileCache: Scanning file cache for directory 'D:/Github/TenFold/TenFold/Content/Developers/Robin/Collections/' took 0.01s
-[2016.02.12-17.54.36:482][  0]LogFileCache: Scanning file cache for directory 'D:/Github/TenFold/TenFold/Content/Collections/' took 0.01s
-[2016.02.12-17.54.36:482][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.02.12-17.54.36:490][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1893 classes and 338 folders.
-[2016.02.12-17.54.36:499][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.02.12-17.54.36:543][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.02.12-17.54.36:574][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.02.12-17.54.36:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.02.12-17.54.36:625][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.02.12-17.54.36:648][  0]LogLoad: Full Startup: 4.96 seconds (BP compile: 0.08 seconds)
-[2016.02.12-17.54.36:665][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.02.12-17.54.36:666][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
-[2016.02.12-17.54.36:730][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.02.12-17.54.36:893][  0]LogRenderer: Reallocating scene render targets to support 1132x920 (Frame:2).
-[2016.02.12-17.54.39:009][  7]LogAssetRegistry: Asset discovery search completed in 4.1356 seconds
-[2016.02.12-17.54.39:009][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.02.12-17.54.39:009][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2016.02.12-17.54.45:424][296]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:428][297]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:444][298]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:460][299]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:479][300]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:494][301]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:512][302]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:528][303]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:545][304]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:561][305]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:578][306]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:594][307]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:610][308]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:628][309]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:645][310]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:661][311]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:678][312]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:695][313]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:712][314]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:728][315]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:745][316]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:761][317]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:781][318]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:795][319]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:811][320]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:828][321]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:845][322]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:861][323]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:878][324]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:895][325]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:911][326]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:928][327]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:944][328]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:961][329]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:978][330]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.45:994][331]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:011][332]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:031][333]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:045][334]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:062][335]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:078][336]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:095][337]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:112][338]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:129][339]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:145][340]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:162][341]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:178][342]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:197][343]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:212][344]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:231][345]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:245][346]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:262][347]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:278][348]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:295][349]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:312][350]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:328][351]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:345][352]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:362][353]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:378][354]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:396][355]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:411][356]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:427][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:428][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:431][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:432][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:433][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:437][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:438][357]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:443][358]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:444][358]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:446][358]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:447][358]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:459][359]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:461][359]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:462][359]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:462][359]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:477][360]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:478][360]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:478][360]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:494][361]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:495][361]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:495][361]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:510][362]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:511][362]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:511][362]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:527][363]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:528][363]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:528][363]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:543][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:544][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:545][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:546][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:559][365]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:561][365]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:562][365]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:562][365]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:576][366]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:577][366]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:579][366]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:580][366]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:593][367]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:594][367]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:594][367]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:595][367]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:610][368]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:611][368]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:612][368]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:613][368]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:626][369]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:628][369]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:630][369]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:631][369]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:643][370]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:644][370]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:645][370]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:646][370]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:659][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:660][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:661][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:661][371]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:676][372]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:678][372]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:680][372]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:681][372]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:694][373]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:695][373]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:695][373]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:710][374]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:710][374]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:711][374]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:712][374]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:744][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:751][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:783][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:783][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:788][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:790][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:791][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:791][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:791][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:818][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:828][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:828][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:831][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:832][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:832][375]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:836][376]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:837][376]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:838][376]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:898][377]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:899][377]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:899][377]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:900][377]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:916][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:916][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:918][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:919][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:921][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:921][378]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:932][379]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:934][379]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:936][379]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:951][380]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:967][381]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.46:984][382]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:015][383]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:018][384]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:037][385]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:054][386]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:070][387]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:087][388]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:103][389]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:121][390]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:136][391]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:151][392]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:170][393]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:185][394]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:202][395]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:219][396]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:236][397]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:253][398]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:270][399]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:287][400]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:304][401]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:320][402]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:337][403]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:353][404]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:370][405]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:386][406]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:403][407]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:420][408]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:437][409]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:454][410]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:470][411]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:486][412]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:504][413]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:520][414]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:537][415]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:552][416]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:570][417]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:586][418]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:604][419]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:620][420]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:637][421]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:653][422]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:670][423]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:687][424]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:703][425]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:720][426]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:736][427]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:754][428]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:769][429]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:787][430]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:802][431]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:820][432]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:837][433]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:854][434]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:870][435]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:887][436]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:903][437]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:920][438]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:937][439]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:953][440]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:969][441]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.47:986][442]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:003][443]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:019][444]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:035][445]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:053][446]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:069][447]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:086][448]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:102][449]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:119][450]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:136][451]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:152][452]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:169][453]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:186][454]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:203][455]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:219][456]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:237][457]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:254][458]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:269][459]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:287][460]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:303][461]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:319][462]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:337][463]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:353][464]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:369][465]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:386][466]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:404][467]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:420][468]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:437][469]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:453][470]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:470][471]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:486][472]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:503][473]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:520][474]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:537][475]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:554][476]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:570][477]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:586][478]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:603][479]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:619][480]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:635][481]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:652][482]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:669][483]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:686][484]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:703][485]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:719][486]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:735][487]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:752][488]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:769][489]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:786][490]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:802][491]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:820][492]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:836][493]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:853][494]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:870][495]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:886][496]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:903][497]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:921][498]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:936][499]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:953][500]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:970][501]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.48:986][502]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:003][503]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:020][504]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:036][505]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:052][506]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:070][507]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:085][508]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:103][509]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:120][510]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:136][511]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:153][512]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:170][513]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:186][514]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:203][515]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:219][516]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:236][517]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:253][518]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:269][519]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:286][520]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:303][521]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:320][522]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/LauncherGameInstance/LancherGameInstance.LancherGameInstance_C'
-[2016.02.12-17.54.49:334][523]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.02.12-17.55.07:413][575]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.02.12-17.55.07:752][575]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
-[2016.02.12-17.55.08:056][575]LogActor:Warning: GameNetworkManager /Engine/Transient.World_2:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.12-17.55.10:299][688]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.12-17.55.38:406][216]LogEnum:Warning: Enum Text MenuState::NewEnumerator2 for Enum MenuState failed to resolve to any value
-[2016.02.12-17.55.59:022][448]LogEnum:Warning: Enum Text MenuState::NewEnumerator3 for Enum MenuState failed to resolve to any value
-[2016.02.12-17.56.48:435][403]LogEnum:Warning: Enum Text MenuState::NewEnumerator4 for Enum MenuState failed to resolve to any value
-[2016.02.12-17.57.01:780][915]LogEnum:Warning: Enum Text MenuState::NewEnumerator5 for Enum MenuState failed to resolve to any value
-[2016.02.12-17.59.42:320][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enums/MenuState" FILE="D:/Github/TenFold/TenFold/Content/Enums/MenuState.uasset" SILENT=true
-[2016.02.12-17.59.42:431][833]LogSavePackage: Save=4.053335ms
-[2016.02.12-17.59.42:431][833]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/MenuStateF6508601468CC21C8047AD9A216C6602.tmp' to 'D:/Github/TenFold/TenFold/Content/Enums/MenuState.uasset'
-[2016.02.12-17.59.42:434][833]LogSavePackage: Total save time: 111.528911ms
-[2016.02.12-17.59.42:434][833]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/Enums/MenuState.uasset
-[2016.02.12-18.00.15:090][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameInstances/LancherGameInstance" FILE="D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset" SILENT=true
-[2016.02.12-18.00.15:103][682]LogSavePackage: Save=5.657344ms
-[2016.02.12-18.00.15:103][682]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/LancherGameInstance2BF241254E62958EF1A329A4864A02CC.tmp' to 'D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset'
-[2016.02.12-18.00.15:141][682]LogSavePackage: Total save time: 49.404871ms
-[2016.02.12-18.00.15:141][682]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset
-[2016.02.12-18.00.15:482][703]BlueprintLog: New page: Compile LancherGameInstance
-[2016.02.12-18.00.15:571][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4C1766840
-[2016.02.12-18.00.15:573][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A482636DE0
-[2016.02.12-18.00.15:574][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A481CBA8E0
-[2016.02.12-18.00.15:575][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A493A79580
-[2016.02.12-18.00.15:586][703]BlueprintEditorCompileResults: Info [0343.90] Compile of LancherGameInstance successful! [in 102 ms]
-[2016.02.12-18.00.55:809][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameInstances/LancherGameInstance" FILE="D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset" SILENT=true
-[2016.02.12-18.00.55:817][ 95]LogSavePackage: Save=4.252861ms
-[2016.02.12-18.00.55:817][ 95]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/LancherGameInstanceB653B1E4459DC417668CB0A781CB2E4F.tmp' to 'D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset'
-[2016.02.12-18.00.55:818][ 95]LogSavePackage: Total save time: 7.896472ms
-[2016.02.12-18.00.55:818][ 95]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/GameInstances/LancherGameInstance.uasset
-[2016.02.12-18.00.56:258][122]BlueprintLog: New page: Compile LancherGameInstance
-[2016.02.12-18.00.56:327][122]BlueprintEditorCompileResults: Info [0384.64] Compile of LancherGameInstance successful! [in 68 ms]
-[2016.02.12-18.00.58:692][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/MenuHUD" FILE="D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset" SILENT=true
-[2016.02.12-18.00.58:761][260]LogSavePackage: Save=46.102837ms
-[2016.02.12-18.00.58:761][260]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/MenuHUD765E7A3D4B9A6208247577B8479C08E7.tmp' to 'D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset'
-[2016.02.12-18.00.58:763][260]LogSavePackage: Total save time: 69.372255ms
-[2016.02.12-18.00.58:763][260]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset
-[2016.02.12-18.00.59:143][283]BlueprintLog: New page: Compile MenuHUD
-[2016.02.12-18.00.59:240][283]BlueprintEditorCompileResults: Info [0387.56] Compile of MenuHUD successful! [in 97 ms]
-[2016.02.12-18.01.20:329][528]LogEditorTransaction: Undo Delete current selection
-[2016.02.12-18.01.29:332][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/MenuHUD" FILE="D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset" SILENT=true
-[2016.02.12-18.01.29:372][ 47]LogSavePackage: Save=35.711472ms
-[2016.02.12-18.01.29:372][ 47]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/MenuHUDAD5469B64DD345711250D5AB0DFF2D67.tmp' to 'D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset'
-[2016.02.12-18.01.29:374][ 47]LogSavePackage: Total save time: 40.085852ms
-[2016.02.12-18.01.29:374][ 47]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/HUDs/MenuHUD.uasset
-[2016.02.12-18.01.30:021][ 86]BlueprintLog: New page: Compile MenuHUD
-[2016.02.12-18.01.30:047][ 86]LogBlueprint:Error: [compiler Login] Error Could not find a function named "CharacterSelectionMenu" in 'MenuHUD_C'.
-Make sure 'MenuHUD_C' has been compiled for  Character Selection Menu 
-[2016.02.12-18.01.30:176][ 86]BlueprintEditorCompileResults: Info [0418.49] Compile of MenuHUD successful! [in 155 ms]
-[2016.02.12-18.01.32:504][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Launcher" FILE="D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.02.12-18.01.32:586][214]LogSavePackage: Save=74.049622ms
-[2016.02.12-18.01.32:586][214]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/UEDPCLauncherF9A4F6D34508667D38CED79456ADDE33.tmp' to 'D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap'
-[2016.02.12-18.01.32:586][214]LogSavePackage: Total save time: 81.408273ms
-[2016.02.12-18.01.32:586][214]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap
-[2016.02.12-18.02.34:263][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Login" FILE="D:/Github/TenFold/TenFold/Content/Widget/Login.uasset" SILENT=true
-[2016.02.12-18.02.34:609][106]LogSavePackage: Save=66.078026ms
-[2016.02.12-18.02.34:609][106]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/Login5FF5D0A443D59D61A8ECA3B92C8289BF.tmp' to 'D:/Github/TenFold/TenFold/Content/Widget/Login.uasset'
-[2016.02.12-18.02.34:612][106]LogSavePackage: Total save time: 347.590826ms
-[2016.02.12-18.02.34:612][106]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/Widget/Login.uasset
-[2016.02.12-18.02.35:172][140]BlueprintLog: New page: Compile Login
-[2016.02.12-18.02.35:188][140]LogBlueprint:Error: [compiler Login] Error Could not find a function named "CharacterSelectionMenu" in 'MenuHUD_C'.
-Make sure 'MenuHUD_C' has been compiled for  Character Selection Menu 
-[2016.02.12-18.02.35:297][140]LogBlueprint:Warning: [compiler Login] Warning [0483.61] Compile of Login failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms]
-[2016.02.12-18.02.35:297][140]BlueprintEditorCompileResults:Error: Error Could not find a function named "CharacterSelectionMenu" in 'MenuHUD_C'.
-Make sure 'MenuHUD_C' has been compiled for  Character Selection Menu 
-[2016.02.12-18.02.35:297][140]BlueprintEditorCompileResults:Warning: Warning [0483.61] Compile of Login failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms]
-[2016.02.12-18.02.43:023][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widget/Login" FILE="D:/Github/TenFold/TenFold/Content/Widget/Login.uasset" SILENT=true
-[2016.02.12-18.02.43:071][598]LogSavePackage: Save=44.325169ms
-[2016.02.12-18.02.43:071][598]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/Login02753AD5479BA85CD07450BC5A67CCF9.tmp' to 'D:/Github/TenFold/TenFold/Content/Widget/Login.uasset'
-[2016.02.12-18.02.43:072][598]LogSavePackage: Total save time: 48.151467ms
-[2016.02.12-18.02.43:072][598]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Content/Widget/Login.uasset
-[2016.02.12-18.02.43:566][628]BlueprintLog: New page: Compile Login
-[2016.02.12-18.02.43:649][628]BlueprintEditorCompileResults: Info [0491.96] Compile of Login successful! [in 83 ms]
-[2016.02.12-18.02.46:739][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Launcher" FILE="D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2016.02.12-18.02.46:803][800]LogSavePackage: Save=60.322147ms
-[2016.02.12-18.02.46:803][800]LogSavePackage: Moving 'D:/Github/TenFold/TenFold/Saved/UEDPCLauncher97134FF34CC8CC81100441A69C1662C1.tmp' to 'D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap'
-[2016.02.12-18.02.46:804][800]LogSavePackage: Total save time: 63.371282ms
-[2016.02.12-18.02.46:804][800]LogSavePackage:Display: Finished SavePackage D:/Github/TenFold/TenFold/Saved/Autosaves/Game/Levels/UEDPCLauncher.umap
-[2016.02.12-18.02.56:858][956]Cmd: QUIT_EDITOR
-[2016.02.12-18.02.56:966][956]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.02.12-18.02.57:027][956]LogExit: Preparing to exit.
-[2016.02.12-18.02.58:032][956]LogExit: Editor shut down
-[2016.02.12-18.02.58:033][956]LogExit: Transaction tracking system shut down
-[2016.02.12-18.02.58:036][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4C4644860
-[2016.02.12-18.02.58:036][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4DCE05DA0
-[2016.02.12-18.02.58:037][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4B8C70A40
-[2016.02.12-18.02.58:040][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4812EEA20
-[2016.02.12-18.02.58:041][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4986D8FE0
-[2016.02.12-18.02.58:041][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A48B2B22A0
-[2016.02.12-18.02.58:212][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A4C4508D60
-[2016.02.12-18.02.58:212][956]LogExit: Object subsystem successfully closed.
-[2016.02.12-18.02.58:225][956]LogD3D11RHI: Shutdown
-[2016.02.12-18.02.58:225][956]LogD3D11RHI: CleanupD3DDevice
-[2016.02.12-18.02.58:276][956]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module CookingStats (201)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
-[2016.02.12-18.02.58:302][956]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
-[2016.02.12-18.02.58:303][956]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
-[2016.02.12-18.02.58:304][956]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
-[2016.02.12-18.02.58:304][956]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
-[2016.02.12-18.02.58:306][956]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (192)
-[2016.02.12-18.02.58:306][956]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
-[2016.02.12-18.02.58:306][956]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
-[2016.02.12-18.02.58:306][956]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module BspMode (185)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
-[2016.02.12-18.02.58:307][956]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
-[2016.02.12-18.02.58:309][956]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
-[2016.02.12-18.02.58:310][956]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
-[2016.02.12-18.02.58:311][956]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
-[2016.02.12-18.02.58:311][956]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
-[2016.02.12-18.02.58:311][956]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
-[2016.02.12-18.02.58:311][956]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module MergeActors (169)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module SizeMap (168)
-[2016.02.12-18.02.58:867][956]LogModuleManager: Shutting down and abandoning module TreeMap (167)
-[2016.02.12-18.02.58:869][956]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
-[2016.02.12-18.02.58:870][956]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
-[2016.02.12-18.02.58:870][956]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
-[2016.02.12-18.02.58:871][956]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
-[2016.02.12-18.02.58:871][956]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
-[2016.02.12-18.02.58:872][956]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module XmlParser (158)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module Blutility (157)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
-[2016.02.12-18.02.58:873][956]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
-[2016.02.12-18.02.58:875][956]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
-[2016.02.12-18.02.58:875][956]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
-[2016.02.12-18.02.58:875][956]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
-[2016.02.12-18.02.58:876][956]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
-[2016.02.12-18.02.58:877][956]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
-[2016.02.12-18.02.58:877][956]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
-[2016.02.12-18.02.58:877][956]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
-[2016.02.12-18.02.58:878][956]LogModuleManager: Shutting down and abandoning module AutomationController (146)
-[2016.02.12-18.02.58:878][956]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
-[2016.02.12-18.02.58:878][956]LogModuleManager: Shutting down and abandoning module Layers (144)
-[2016.02.12-18.02.58:880][956]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
-[2016.02.12-18.02.58:880][956]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
-[2016.02.12-18.02.58:881][956]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
-[2016.02.12-18.02.58:881][956]LogModuleManager: Shutting down and abandoning module Persona (140)
-[2016.02.12-18.02.58:883][956]LogModuleManager: Shutting down and abandoning module Kismet (139)
-[2016.02.12-18.02.58:883][956]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
-[2016.02.12-18.02.58:883][956]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
-[2016.02.12-18.02.58:885][956]LogModuleManager: Shutting down and abandoning module Toolbox (136)
-[2016.02.12-18.02.58:885][956]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
-[2016.02.12-18.02.58:885][956]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
-[2016.02.12-18.02.58:885][956]LogModuleManager: Shutting down and abandoning module OutputLog (133)
-[2016.02.12-18.02.58:885][956]LogModuleManager: Shutting down and abandoning module GammaUI (132)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module Documentation (131)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module Analytics (127)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module AIModule (124)
-[2016.02.12-18.02.58:886][956]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module OculusInput (116)
-[2016.02.12-18.02.59:111][956]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.02.12-18.02.59:128][956]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.02.12-18.02.59:128][956]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.02.12-18.02.59:128][956]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.02.12-18.02.59:128][956]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.02.12-18.02.59:130][956]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.02.12-18.02.59:131][956]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.02.12-18.02.59:131][956]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.02.12-18.02.59:131][956]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.02.12-18.02.59:132][956]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.02.12-18.02.59:133][956]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.02.12-18.02.59:134][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.02.12-18.02.59:134][956]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.02.12-18.02.59:134][956]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.02.12-18.02.59:134][956]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.02.12-18.02.59:134][956]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.02.12-18.02.59:135][956]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.02.12-18.02.59:135][956]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.02.12-18.02.59:135][956]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.02.12-18.02.59:136][956]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.02.12-18.02.59:137][956]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
-[2016.02.12-18.02.59:224][956]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
-[2016.02.12-18.02.59:225][956]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
-[2016.02.12-18.02.59:233][956]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
-[2016.02.12-18.02.59:333][956]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
-[2016.02.12-18.02.59:333][956]LogModuleManager: Shutting down and abandoning module Paper2D (84)
-[2016.02.12-18.02.59:333][956]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
-[2016.02.12-18.02.59:336][956]LogModuleManager: Shutting down and abandoning module Media (82)
-[2016.02.12-18.02.59:336][956]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
-[2016.02.12-18.02.59:336][956]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2016.02.12-18.02.59:336][956]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module MessageLog (73)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module Sequencer (72)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module AssetTools (71)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module UMG (69)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module Slate (68)
-[2016.02.12-18.02.59:337][956]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module SessionServices (66)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module Networking (61)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module Core (60)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
-[2016.02.12-18.02.59:339][956]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
-[2016.02.12-18.02.59:372][956]LogDerivedDataCache: Shutdown
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.02.12-18.02.59:372][956]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.02.12-18.02.59:373][956]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.02.12-18.02.59:373][956]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.02.12-18.02.59:373][956]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.02.12-18.03.00:374][956]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.02.12-18.03.00:376][956]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.02.12-18.03.00:377][956]LogExit: Exiting.
-[2016.02.12-18.03.00:381][956]Log file closed, 02/12/16 19:03:00
+﻿[2016.02.13-16.10.49:351][  0]Log file open, 02/13/16 16:10:49
+[2016.02.13-16.10.49:351][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-16.10.49:351][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-16.10.49:351][  0]LogInit:Display: RandInit(994468903) SRandInit(994468931).
+[2016.02.13-16.10.49:351][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.02.13-16.10.49:351][  0]LogStats: Stats thread started at 0.082224
+[2016.02.13-16.10.49:351][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-16.10.49:351][  0]LogInit: API Version: 2758231
+[2016.02.13-16.10.49:364][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.13-16.10.49:364][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.13-16.10.49:364][  0]LogInit: Build Configuration: Development
+[2016.02.13-16.10.49:364][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.13-16.10.49:365][  0]LogInit: Command line:  
+[2016.02.13-16.10.49:365][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.13-16.10.49:365][  0]LogInit: Rocket: 1
+[2016.02.13-16.10.49:558][  0]LogInit: Using libcurl 7.41.0
+[2016.02.13-16.10.49:558][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.13-16.10.49:558][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.13-16.10.49:558][  0]LogInit:  - other features:
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.13-16.10.49:560][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.13-16.10.49:560][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.13-16.10.49:560][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.13-16.10.49:560][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.13-16.10.49:560][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.13-16.10.49:788][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.13-16.10.50:071][  0]LogInit: Object subsystem initialized
+[2016.02.13-16.10.50:417][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-16.10.50:419][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.13-16.10.50:507][  0]LogInit: Computer: WADEWINDOWSPC
+[2016.02.13-16.10.50:507][  0]LogInit: User: WadePenistone
+[2016.02.13-16.10.50:507][  0]LogInit: CPU Page size=4096, Cores=3
+[2016.02.13-16.10.50:507][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.02.13-16.10.50:507][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.13-16.10.50:527][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.13-16.10.50:527][  0]LogMemory: Process Physical Memory: 55.82 MB used, 55.82 MB peak
+[2016.02.13-16.10.50:527][  0]LogMemory: Process Virtual Memory: 55.61 MB used, 55.61 MB peak
+[2016.02.13-16.10.50:527][  0]LogMemory: Physical Memory: 2768.36 MB used, 4095.27 MB total
+[2016.02.13-16.10.50:527][  0]LogMemory: Virtual Memory: 381.09 MB used, 134217728.00 MB total
+[2016.02.13-16.10.51:985][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.02.13-16.10.54:140][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.02.13-16.10.54:140][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.13-16.10.54:212][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.13-16.10.54:212][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.13-16.10.54:233][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.13-16.10.54:791][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Intermediate/Shaders/WorkingDirectory/7596/).
+[2016.02.13-16.10.54:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WADEPE~1/AppData/Local/Temp/UnrealShaderWorkingDir/C6CEAC25409A213743F2648D98902F51/'.
+[2016.02.13-16.10.54:807][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.13-16.11.00:486][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.13-16.11.00:495][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.13-16.11.00:503][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.13-16.11.00:512][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.13-16.11.00:543][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.13-16.11.00:564][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.13-16.11.00:579][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.13-16.11.00:597][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.13-16.11.00:603][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.13-16.11.00:617][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.13-16.11.00:624][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.13-16.11.00:650][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.13-16.11.00:650][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.13-16.11.00:651][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.13-16.11.00:781][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.13-16.11.00:791][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.13-16.11.00:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.13-16.11.00:831][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.13-16.11.00:831][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.13-16.11.01:941][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Loaded boot cache 0.58s 41MB C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.13-16.11.02:746][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.13-16.11.02:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wade Penistone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.13-16.11.16:391][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-16.11.16:588][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.13-16.11.18:758][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.13-16.11.18:758][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.13-16.11.24:625][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.13-16.11.47:775][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.13-16.11.47:892][  0]LogBluLoader: patched dll directory paths
+[2016.02.13-16.11.47:892][  0]LogBluLoader: STATUS: BLUI Ready to Load!
+[2016.02.13-16.11.50:512][  0]LogBlu:  STATUS: Loaded
+[2016.02.13-16.11.51:800][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2016.02.13-16.11.51:935][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Plugins/BLUI/Content/. Error: 0
+[2016.02.13-16.11.55:776][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.55:808][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.56:017][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.56:260][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.59:931][  0]LogObj: 28782 objects as part of root set at end of initial load.
+[2016.02.13-16.11.59:931][  0]LogUObjectAllocator: 6125296 out of 0 bytes used by permanent object pool.
+[2016.02.13-16.12.03:040][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.87s
+[2016.02.13-16.12.03:283][  0]LogEngine: Initializing Engine...
+[2016.02.13-16.12.03:366][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-16.12.03:538][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.13-16.12.06:752][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.13-16.12.08:136][  0]LogInit: XAudio2 using 'Line Out (2- Scarlett 2i4 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-16.12.08:293][  0]LogInit: FAudioDevice initialized.
+[2016.02.13-16.12.08:357][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-16.12.08:436][  0]LogInit: Texture streaming: Enabled
+[2016.02.13-16.12.08:672][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.13-16.12.08:714][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-16.12.08:714][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId bd5663b145f9aacd6080e4bee76ad43b|89c5eabcc97e4b58b5371079b5a8c543|ebb95609-1706-44b8-8098-c8f94c86bdaa
+[2016.02.13-16.12.08:790][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.13-16.12.09:069][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-16.12.10:742][  0]LogInit: Transaction tracking system initialized
+[2016.02.13-16.12.13:807][  0]BlueprintLog: New page: Editor Load
+[2016.02.13-16.12.24:394][  0]LocalizationService: Info Localization service is disabled
+[2016.02.13-16.12.33:982][  0]LogConsoleResponse:Display: 
+[2016.02.13-16.12.40:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/' took 0.07s
+[2016.02.13-16.12.40:315][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.13-16.12.44:940][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.12.45:187][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Levels/Launcher.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.13-16.12.45:450][  0]LightingResults: New page: Lighting Build
+[2016.02.13-16.12.46:526][  0]MapCheck: New page: Map Check
+[2016.02.13-16.12.46:526][  0]LightingResults: New page: Lighting Build
+[2016.02.13-16.12.48:820][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EB54066160
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:773][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 4 Warning(s) [in 25 ms]
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 4 Warning(s) [in 8 ms]
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.13-16.12.56:603][  0]LogAIModule: Creating AISystem for world Launcher
+[2016.02.13-16.12.58:504][  0]LogEditorServer: Finished looking for orphan Actors (0.006 secs)
+[2016.02.13-16.12.58:602][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.13-16.12.58:752][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 150.345ms to complete.
+[2016.02.13-16.12.58:752][  0]LogFileHelpers: Loading map 'Launcher' took 13.700
+[2016.02.13-16.13.08:048][  0]LogCollectionManager: Loaded 0 collections in 0.003054 seconds
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Saved/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Developers/WadePenistone/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.13-16.13.10:354][  0]LogContentBrowser: Native class hierarchy populated in 0.2405 seconds. Added 1896 classes and 341 folders.
+[2016.02.13-16.13.11:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.02.13-16.13.22:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddCont
