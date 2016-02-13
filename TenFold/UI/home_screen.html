@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <style>
+            html, body, div, dl, dt, dd {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                outline: 0;
+                font-size: 100%;
+                vertical-align: baseline;
+                background: transparent;
+                box-sizing: border-box;
+            }
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .header, .footer {
+                border: 2px solid darkgrey;
+                padding-top: 5px;
+                background-color: darkslategrey;
+                color: lightgrey;
+                height: 10%;
+                width: 100%;
+                display: inline-block;
+            }
+            .site-navigation-element {
+                width: 50%;
+                height: 40%;
+                display: inline-block;
+                float: left;
+                position: relative;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            .site-navigation-element dl {
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+                border-top-left-radius: 50px;
+                border-top-right-radius: 50px;
+                opacity: 0.7;
+            }
+            .site-navigation-element dl dt {
+                border-bottom: 2px solid white;
+                padding: 10px 0;
+                font-family: cursive;
+            }
+            .site-navigation-element dl dd {
+                border-top: 2px solid white;
+                text-transform: uppercase;
+                padding: 10px 0;
+                font-family: fantasy;
+            }
+            #truemedia.site-navigation-element {
+                background-color: forestgreen;
+                background-image: url('1vs1000.png');
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+            #truemedia.site-navigation-element dl {
+                background: linear-gradient(darkolivegreen, darkgreen);
+            }
+            #truemedia.site-navigation-element dl dt {
+                color: white;
+            }
+            #truemedia.site-navigation-element dl dd {
+                color: lime;
+            }
+            #robin.site-navigation-element {
+                background-color: orange;
+                border-left: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+            #robin.site-navigation-element dl {
+                background: linear-gradient(firebrick, darkred);
+            }
+            #robin.site-navigation-element dl dt {
+                color: white;
+            }
+            #robin.site-navigation-element dl dd {
+                color: darkorange;
+            }
+            #sean.site-navigation-element {
+                background-color: red;
+                border-top: 2px solid black;
+                border-right: 2px solid black;
+            }
+            #sean.site-navigation-element dl {
+                background: linear-gradient(darkred, brown);
+            }
+            #sean.site-navigation-element dl dt {
+                color: white;
+            }
+            #sean.site-navigation-element dl dd {
+                color: pink;
+            }
+            #yuri.site-navigation-element {
+                background-color: dodgerblue;
+                background-image: url('glaylys_ghost.jpeg');
+                border-top: 2px solid black;
+                border-left: 2px solid black;
+            }
+            #yuri.site-navigation-element dl {
+                background: linear-gradient(mediumblue, midnightblue);
+            }
+            #yuri.site-navigation-element dl dt {
+                color: white;
+            }
+            #yuri.site-navigation-element dl dd {
+                color: lightskyblue;
+            }
+            .footer {
+                padding: 10px 20px;
+            }
+            .footer a {
+                float: right;
+                text-decoration: none;
+                border: 1px solid white;
+                background-color: black;
+                padding: 6px;
+                color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Games</h1>
+        </div>
+        <div class="web-page-element">
+            <div id="truemedia" class="site-navigation-element">
+                <dl>
+                    <dt>Truemedia</dt>
+                    <dd>
+                        <span>1 VS 1000</span>
+                    </dd>
+                </dl>
+            </div>
+            <div id="robin" class="site-navigation-element">
+                <dl>
+                    <dt>Robin</dt>
+                    <dd>Into the future</dd>
+                </dl>
+            </div>
+            <div id="sean" class="site-navigation-element">
+                <dl>
+                    <dt>Sean</dt>
+                    <dd>Rise Against | Beyond The Grid</dd>
+                </dl>
+            </div>
+            <div id="yuri" class="site-navigation-element">
+                <dl>
+                    <dt>Yuri</dt>
+                    <dd>Glaylys Ghost</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="#">Friends list</a>
+        </div>
+    </body>
+</html>
