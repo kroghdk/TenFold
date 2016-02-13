@@ -1,0 +1,53 @@
+﻿[2016.02.13-16.43.18:571][  0]Log file open, 02/13/16 17:43:18
+[2016.02.13-16.43.18:571][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-16.43.18:571][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-16.43.18:571][  0]LogInit:Display: RandInit(1706483420) SRandInit(1706483421).
+[2016.02.13-16.43.18:571][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.13-16.43.18:571][  0]LogStats: Stats thread started at 0.078673
+[2016.02.13-16.43.18:571][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-16.43.18:571][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-BluLoader.dll
+[2016.02.13-16.43.18:571][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-16.43.23:222][  0]Running C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TenFold Development Win64 -project="D:/Github/TenFold/TenFold/TenFold.uproject" -rocket -editorrecompile -progress -noubtmakefiles -2015
+[2016.02.13-16.43.46:465][  0]@progress push 5%
+[2016.02.13-16.43.47:573][  0]Parsing headers for TenFoldEditor
+[2016.02.13-16.43.47:573][  0]  Running UnrealHeaderTool "D:/Github/TenFold/TenFold/TenFold.uproject" "D:\Github\TenFold\TenFold\Intermediate\Build\Win64\TenFoldEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.02.13-16.43.54:785][  0]Reflection code generated for TenFoldEditor in 7,2472214 seconds
+[2016.02.13-16.43.54:986][  0]@progress pop
+[2016.02.13-16.43.57:793][  0]Performing 13 actions (4 in parallel)
+[2016.02.13-16.43.57:894][  0]PCH.BluPrivatePCH.h.cpp
+[2016.02.13-16.43.57:894][  0]PCH.BluLoaderPrivatePCH.h.cpp
+[2016.02.13-16.44.33:457][  0]BluLoader.cpp
+[2016.02.13-16.44.34:359][  0][4/13] Link UE4Editor-BluLoader.dll
+[2016.02.13-16.44.34:459][  0]   Creating library D:\Github\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.lib and object D:\Github\TenFold\TenFold\Plugins\BLUI\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-BluLoader.exp
+[2016.02.13-16.44.39:568][  0]RenderHandler.cpp
+[2016.02.13-16.44.39:669][  0]BluManager.cpp
+[2016.02.13-16.44.39:669][  0]Blu.generated.cpp
+[2016.02.13-16.44.39:670][  0]BluJsonObj.cpp
+[2016.02.13-16.44.40:473][  0]Blu.cpp
+[2016.02.13-16.44.41:075][  0]BluBluprintFunctionLibrary.cpp
+[2016.02.13-16.44.41:376][  0]BluEye.cpp
+[2016.02.13-16.44.42:578][  0][12/13] Link UE4Editor-Blu.dll
+[2016.02.13-16.44.42:779][  0]LINK : fatal error LNK1181: cannot open input file 'D:\Github\TenFold\TenFold\Plugins\BLUI\ThirdParty\cef/Win/lib\libcef.lib'
+[2016.02.13-16.44.42:979][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.02.13-16.44.42:979][  0]ERROR: UBT ERROR: Failed to produce item: D:\Github\TenFold\TenFold\Plugins\BLUI\Binaries\Win64\UE4Editor-Blu.dll
+[2016.02.13-16.44.43:085][  0]Total build time: 79,74 seconds
+[2016.02.13-16.44.43:672][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-TenFold.dll
+[2016.02.13-16.44.43:672][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-Blu.dll
+[2016.02.13-16.44.46:876][  0]LogExit: Preparing to exit.
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.13-16.44.46:877][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.13-16.44.46:878][  0]LogExit: Exiting.
+[2016.02.13-16.44.46:880][  0]Log file closed, 02/13/16 17:44:46

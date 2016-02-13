@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TenFold.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{6102CC73-92BD-43CA-9EA3-5B2DFC4F23D8}</UniqueIdentifier>
+			<UniqueIdentifier>{71E69457-093E-40CC-8B6F-45CB390EA705}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TenFold.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{891DA1BE-1D3D-4D09-BE0E-531F93699D8B}</UniqueIdentifier>
+			<UniqueIdentifier>{B6FF34C8-3E0B-4219-9A05-C49EA91A51C9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,22 +25,22 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{FF9148EE-CBFF-4C7B-AE4D-50A6F4527BA5}</UniqueIdentifier>
+			<UniqueIdentifier>{8FA6CEE3-A35D-4953-82F2-082345857F1B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BLUI">
-			<UniqueIdentifier>{0B23003F-22B9-4C61-86C7-28238708E1EB}</UniqueIdentifier>
+			<UniqueIdentifier>{F0ED0C6D-48FE-46B6-AA61-2D6B06D30EAC}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BLUI\Source">
-			<UniqueIdentifier>{6A9F7C17-FD76-4E87-9BC3-B5EA352DAB70}</UniqueIdentifier>
+			<UniqueIdentifier>{B0FB7606-B021-4BCB-9401-1BE8EA49C90B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\BLUI\Source\Blu">
-			<UniqueIdentifier>{2968FD6D-A759-4EA6-BB23-2080D3DB0121}</UniqueIdentifier>
+			<UniqueIdentifier>{D58D9B86-6392-425C-885B-D8F5C86DAE03}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\BLUI\Source\Blu\Blu.Build.cs">
 			<Filter>Plugins\BLUI\Source\Blu</Filter>
 		</None >
 		<Filter Include="Plugins\BLUI\Source\Blu\Private">
-			<UniqueIdentifier>{5535FF27-E0E9-453C-996F-C70C51B2480C}</UniqueIdentifier>
+			<UniqueIdentifier>{A7333EE6-3CBC-4EFA-ABDA-0D926AA7882E}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\BLUI\Source\Blu\Private\Blu.cpp">
 			<Filter>Plugins\BLUI\Source\Blu\Private</Filter>
@@ -64,7 +64,7 @@
 			<Filter>Plugins\BLUI\Source\Blu\Private</Filter>
 		</ClCompile >
 		<Filter Include="Plugins\BLUI\Source\Blu\Public">
-			<UniqueIdentifier>{F7725228-92E3-4E21-A0C8-D5EFE02F14AB}</UniqueIdentifier>
+			<UniqueIdentifier>{39EAFDA6-7D46-4123-93D0-735144800AB8}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\BLUI\Source\Blu\Public\BluBlueprintFunctionLibrary.h">
 			<Filter>Plugins\BLUI\Source\Blu\Public</Filter>
@@ -88,19 +88,19 @@
 			<Filter>Plugins\BLUI</Filter>
 		</None >
 		<Filter Include="Plugins\BLUI\Resources">
-			<UniqueIdentifier>{52A0E70B-9BF5-47FD-B7CB-34DA39155F11}</UniqueIdentifier>
+			<UniqueIdentifier>{12654321-2941-41DE-AB7B-867217465C0C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\BLUI\Resources\Icon128.png">
 			<Filter>Plugins\BLUI\Resources</Filter>
 		</None >
 		<Filter Include="Plugins\BLUI\Source\BluLoader">
-			<UniqueIdentifier>{9D3158D9-5089-424D-ACD5-51A57185B44A}</UniqueIdentifier>
+			<UniqueIdentifier>{5963CD29-1FCE-43B0-AEF3-1B7515ABE5D2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\BLUI\Source\BluLoader\BluLoader.Build.cs">
 			<Filter>Plugins\BLUI\Source\BluLoader</Filter>
 		</None >
 		<Filter Include="Plugins\BLUI\Source\BluLoader\Private">
-			<UniqueIdentifier>{C9935434-1ED1-4128-9884-71C0212E4EE3}</UniqueIdentifier>
+			<UniqueIdentifier>{D3F3CEC2-4F4C-4BE7-BBB9-41AB941D72E4}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\BLUI\Source\BluLoader\Private\BluLoader.cpp">
 			<Filter>Plugins\BLUI\Source\BluLoader\Private</Filter>
@@ -109,13 +109,13 @@
 			<Filter>Plugins\BLUI\Source\BluLoader\Private</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\BLUI\Source\BluLoader\Public">
-			<UniqueIdentifier>{18DA1FC6-8E55-4A46-A926-D0A8E3D0FEBA}</UniqueIdentifier>
+			<UniqueIdentifier>{2C55A782-D650-4BFB-9614-FD5EB6F07B48}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\BLUI\Source\BluLoader\Public\IBluLoader.h">
 			<Filter>Plugins\BLUI\Source\BluLoader\Public</Filter>
 		</ClInclude >
 		<Filter Include="Source\TenFold">
-			<UniqueIdentifier>{7F5EDA06-B75E-4817-9C9F-BF993BDCDB8E}</UniqueIdentifier>
+			<UniqueIdentifier>{C4B09203-99CA-429A-AA00-3EEE1ED26873}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\TenFold\Helper.cpp">
 			<Filter>Source\TenFold</Filter>

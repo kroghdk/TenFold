@@ -467,10 +467,10 @@ C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptGeneratorPlugin\Sour
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Source\Blu\Blu.Build.cs
-C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Plugins\BLUI\Source\BluLoader\BluLoader.Build.cs
-C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Source\TenFold\TenFold.Build.cs
+D:\Github\TenFold\TenFold\Plugins\BLUI\Source\Blu\Blu.Build.cs
+D:\Github\TenFold\TenFold\Plugins\BLUI\Source\BluLoader\BluLoader.Build.cs
+D:\Github\TenFold\TenFold\Source\TenFold\TenFold.Build.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Source\UE4Editor.Target.cs
 C:\Program Files (x86)\Epic Games\4.10\Engine\Source\UE4Game.Target.cs
-C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Source\TenFold.Target.cs
-C:\Users\Wade Penistone\Documents\Unreal Projects\TenFoldMaster\TenFold\Source\TenFoldEditor.Target.cs
+D:\Github\TenFold\TenFold\Source\TenFold.Target.cs
+D:\Github\TenFold\TenFold\Source\TenFoldEditor.Target.cs

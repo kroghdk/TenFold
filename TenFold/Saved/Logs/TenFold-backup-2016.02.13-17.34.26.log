@@ -1,0 +1,153 @@
+﻿[2016.02.13-16.10.49:351][  0]Log file open, 02/13/16 16:10:49
+[2016.02.13-16.10.49:351][  0]LogInit:Display: Running engine for game: TenFold
+[2016.02.13-16.10.49:351][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.13-16.10.49:351][  0]LogInit:Display: RandInit(994468903) SRandInit(994468931).
+[2016.02.13-16.10.49:351][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.02.13-16.10.49:351][  0]LogStats: Stats thread started at 0.082224
+[2016.02.13-16.10.49:351][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-16.10.49:351][  0]LogInit: API Version: 2758231
+[2016.02.13-16.10.49:364][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.13-16.10.49:364][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.13-16.10.49:364][  0]LogInit: Build Configuration: Development
+[2016.02.13-16.10.49:364][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.13-16.10.49:365][  0]LogInit: Command line:  
+[2016.02.13-16.10.49:365][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.13-16.10.49:365][  0]LogInit: Rocket: 1
+[2016.02.13-16.10.49:558][  0]LogInit: Using libcurl 7.41.0
+[2016.02.13-16.10.49:558][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.13-16.10.49:558][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.13-16.10.49:558][  0]LogInit:  - other features:
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.13-16.10.49:558][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.13-16.10.49:560][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.13-16.10.49:560][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.13-16.10.49:560][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.13-16.10.49:560][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.13-16.10.49:560][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.13-16.10.49:788][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.13-16.10.50:071][  0]LogInit: Object subsystem initialized
+[2016.02.13-16.10.50:417][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-16.10.50:419][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.13-16.10.50:507][  0]LogInit: Computer: WADEWINDOWSPC
+[2016.02.13-16.10.50:507][  0]LogInit: User: WadePenistone
+[2016.02.13-16.10.50:507][  0]LogInit: CPU Page size=4096, Cores=3
+[2016.02.13-16.10.50:507][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.02.13-16.10.50:507][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.13-16.10.50:527][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.13-16.10.50:527][  0]LogMemory: Process Physical Memory: 55.82 MB used, 55.82 MB peak
+[2016.02.13-16.10.50:527][  0]LogMemory: Process Virtual Memory: 55.61 MB used, 55.61 MB peak
+[2016.02.13-16.10.50:527][  0]LogMemory: Physical Memory: 2768.36 MB used, 4095.27 MB total
+[2016.02.13-16.10.50:527][  0]LogMemory: Virtual Memory: 381.09 MB used, 134217728.00 MB total
+[2016.02.13-16.10.51:985][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.02.13-16.10.54:140][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.02.13-16.10.54:140][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2016.02.13-16.10.54:142][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.13-16.10.54:212][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.13-16.10.54:212][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.13-16.10.54:233][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.13-16.10.54:791][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Intermediate/Shaders/WorkingDirectory/7596/).
+[2016.02.13-16.10.54:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WADEPE~1/AppData/Local/Temp/UnrealShaderWorkingDir/C6CEAC25409A213743F2648D98902F51/'.
+[2016.02.13-16.10.54:807][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.13-16.11.00:486][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.13-16.11.00:495][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.13-16.11.00:503][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.13-16.11.00:512][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.13-16.11.00:543][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.13-16.11.00:564][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.13-16.11.00:579][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.13-16.11.00:597][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.13-16.11.00:603][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.13-16.11.00:617][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.13-16.11.00:624][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.13-16.11.00:650][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.13-16.11.00:650][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.13-16.11.00:651][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.13-16.11.00:781][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.13-16.11.00:791][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.13-16.11.00:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.13-16.11.00:831][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.13-16.11.00:831][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.13-16.11.01:941][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Loaded boot cache 0.58s 41MB C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.13-16.11.02:523][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.13-16.11.02:746][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.13-16.11.02:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wade Penistone/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.13-16.11.16:391][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.13-16.11.16:588][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.13-16.11.18:758][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.13-16.11.18:758][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.13-16.11.24:625][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.13-16.11.47:775][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.13-16.11.47:892][  0]LogBluLoader: patched dll directory paths
+[2016.02.13-16.11.47:892][  0]LogBluLoader: STATUS: BLUI Ready to Load!
+[2016.02.13-16.11.50:512][  0]LogBlu:  STATUS: Loaded
+[2016.02.13-16.11.51:800][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2016.02.13-16.11.51:935][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Plugins/BLUI/Content/. Error: 0
+[2016.02.13-16.11.55:776][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.55:808][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.56:017][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.56:260][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.11.59:931][  0]LogObj: 28782 objects as part of root set at end of initial load.
+[2016.02.13-16.11.59:931][  0]LogUObjectAllocator: 6125296 out of 0 bytes used by permanent object pool.
+[2016.02.13-16.12.03:040][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.87s
+[2016.02.13-16.12.03:283][  0]LogEngine: Initializing Engine...
+[2016.02.13-16.12.03:366][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.13-16.12.03:538][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.13-16.12.06:752][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.13-16.12.08:136][  0]LogInit: XAudio2 using 'Line Out (2- Scarlett 2i4 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.13-16.12.08:293][  0]LogInit: FAudioDevice initialized.
+[2016.02.13-16.12.08:357][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Wade Penistone/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.13-16.12.08:436][  0]LogInit: Texture streaming: Enabled
+[2016.02.13-16.12.08:672][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.13-16.12.08:714][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.13-16.12.08:714][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId bd5663b145f9aacd6080e4bee76ad43b|89c5eabcc97e4b58b5371079b5a8c543|ebb95609-1706-44b8-8098-c8f94c86bdaa
+[2016.02.13-16.12.08:790][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.13-16.12.09:069][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.13-16.12.10:742][  0]LogInit: Transaction tracking system initialized
+[2016.02.13-16.12.13:807][  0]BlueprintLog: New page: Editor Load
+[2016.02.13-16.12.24:394][  0]LocalizationService: Info Localization service is disabled
+[2016.02.13-16.12.33:982][  0]LogConsoleResponse:Display: 
+[2016.02.13-16.12.40:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/' took 0.07s
+[2016.02.13-16.12.40:315][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.13-16.12.44:940][  0]SourceControl: Info Source control is disabled
+[2016.02.13-16.12.45:187][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Levels/Launcher.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.13-16.12.45:450][  0]LightingResults: New page: Lighting Build
+[2016.02.13-16.12.46:526][  0]MapCheck: New page: Map Check
+[2016.02.13-16.12.46:526][  0]LightingResults: New page: Lighting Build
+[2016.02.13-16.12.48:820][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001EB54066160
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:772][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:773][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 4 Warning(s) [in 25 ms]
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:791][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.76] Compile of ExampleHUD successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:802][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 4 Warning(s) [in 8 ms]
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 5 Warning(s) [in 0 ms]
+[2016.02.13-16.12.54:804][  0]LogBlueprint:Warning: [compiler ExampleHUD] Warning [0126.77] Compile of ExampleHUD successful, but with 6 Warning(s) [in 0 ms]
+[2016.02.13-16.12.56:603][  0]LogAIModule: Creating AISystem for world Launcher
+[2016.02.13-16.12.58:504][  0]LogEditorServer: Finished looking for orphan Actors (0.006 secs)
+[2016.02.13-16.12.58:602][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.13-16.12.58:752][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 150.345ms to complete.
+[2016.02.13-16.12.58:752][  0]LogFileHelpers: Loading map 'Launcher' took 13.700
+[2016.02.13-16.13.08:048][  0]LogCollectionManager: Loaded 0 collections in 0.003054 seconds
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Saved/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Developers/WadePenistone/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wade Penistone/Documents/Unreal Projects/TenFoldMaster/TenFold/Content/Collections/' took 0.01s
+[2016.02.13-16.13.10:041][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.13-16.13.10:354][  0]LogContentBrowser: Native class hierarchy populated in 0.2405 seconds. Added 1896 classes and 341 folders.
+[2016.02.13-16.13.11:497][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.02.13-16.13.22:291][  0]LogContentBrowser: Native class hierarchy updated for 'AddCont

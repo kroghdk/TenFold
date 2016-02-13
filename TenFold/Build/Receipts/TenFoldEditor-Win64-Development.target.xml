@@ -18,11 +18,18 @@
     <BuildProduct Path="$(ProjectDir)\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TenFold.lib" Type="ImportLibrary" />
   </BuildProducts>
   <RuntimeDependencies>
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\blu_ue4_process.exe" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef.pak" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef_100_percent.pak" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\cef_200_percent.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\d3dcompiler_43.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\d3dcompiler_47.dll" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\devtools_resources.pak" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\ffmpegsumo.dll" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\icudtl.dat" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libcef.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libEGL.dll" />
+    <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\libGLESv2.dll" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\natives_blob.bin" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\snapshot_blob.bin" />
     <RuntimeDependency Path="$(ProjectDir)\Plugins\BLUI\ThirdParty\cef\Win\shipping\locales\am.pak" />
