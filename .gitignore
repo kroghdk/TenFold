@@ -35,6 +35,8 @@
 *.opensdf
 *.sdf
 
+# OS files
+Thumbs.db
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
